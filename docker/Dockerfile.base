@@ -3,7 +3,7 @@ FROM ubuntu:18.04
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
         git \
-        libssl-dev \
+        libssl-dev make \
         python3-pip python3-dev \
         sudo && \
         pip3 install setuptools wheel && \
