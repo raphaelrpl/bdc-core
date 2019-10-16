@@ -1,4 +1,4 @@
-FROM brazildatacube/base:0.1
+FROM brazil-data-cube/base:0.1
 
 ADD . /bdc-core
 
